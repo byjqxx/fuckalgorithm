@@ -1,6 +1,6 @@
 # -*- encoding:utf-8 -*-
 
-class Solution():
+class Solution:
     """
     给定两个字符串 s 和 t，判断它们是否是同构的。
     如果 s 中的字符可以被替换得到 t ，那么这两个字符串是同构的。
@@ -35,7 +35,7 @@ class Solution():
         return True
 
 
-class Solution2():
+class Solution2:
     def isIsomorphic(self, s, t):
         return len(set(s)) == len(set(t)) and len(set(s)) == len(set(zip(s, t)))
 

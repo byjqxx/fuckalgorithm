@@ -2,7 +2,7 @@
 from collections import defaultdict
 
 
-class Solution():
+class Solution:
     """
     统计列表中重复项的出现次数
     """
@@ -12,7 +12,7 @@ class Solution():
             d[item] += 1
         return dict(d)
 
-class Solution2():
+class Solution2:
     def count_item(self, alist):
         d = {}
         s = set(alist)
