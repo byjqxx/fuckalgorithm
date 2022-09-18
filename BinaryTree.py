@@ -38,12 +38,11 @@ class BinaryTree:
         return self.key
 
 
-
-
-r = BinaryTree('a')
-print(r.getRootVal())
-r.insertLeft('b')
-r.insertRight('c')
-print(r.getRightChild().getRootVal())
-r.getLeftChild().setRootVal("hello")
-print(r.getLeftChild().getRootVal())
+if __name__ == "__main__":
+    r = BinaryTree('a')
+    print(r.getRootVal())
+    r.insertLeft('b')
+    r.insertRight('c')
+    print(r.getRightChild().getRootVal())
+    r.getLeftChild().setRootVal("hello")
+    print(r.getLeftChild().getRootVal())
